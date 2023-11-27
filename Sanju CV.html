@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sanju CV</title>
+    <style>
+		*{
+			margin: 0;
+			box-sizing: border-box;
+		}
+		
+		div {
+			text-align: justify;
+			text-justify: inter-word;
+		}
+
+body{
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: .9rem;
+  line-height: 1.5;
+}
+
+a{
+  text-decoration: none;
+  color: #4472C4;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+p{
+  margin: 0 0 1rem;
+}
+
+h1{
+  margin: 0 0 1rem;
+  font-size: 2.5rem;
+  margin-bottom: .5rem;
+}
+
+h2{
+  margin: 0 0 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.text-blue{
+  color: #4472C4;
+}
+
+.text-darkblue{
+  color: #002060;
+}
+
+.text-uppercase{
+  text-transform: uppercase; 
+}
+
+.icon{
+  margin-right: .5rem;
+}
+
+.cv-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "left-column right-column right-column";
+  width: 1200px;
+  margin: 100px auto;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.section{
+  margin-bottom: 1.5rem;
+}
+
+.left-column{
+  grid-area: left-column;
+  padding: 50px;
+  background-color: #212e82;
+  color: white;
+}
+
+.portait{
+  border-radius: 50%;
+  max-width: 150px;
+  margin: auto;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.skills{
+  list-style-type: square;
+  padding: 2;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  margin: 0 0 1rem;
+  text-transform: none;
+}
+
+.right-column{
+  grid-area: right-column;
+  display: grid;
+  grid-template-rows: 300px 1fr;
+  grid-template-areas: 
+    "header"
+    "content";
+}
+
+.header{
+  grid-area: header;
+  padding: 50px;
+  background-color: #F2F2F2;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+
+.infos{
+  columns: 2;
+  list-style-type: none;
+  padding: 0;
+}
+ .red-color {
+color:red;
+}
+.pink-color {
+    color:rgb(194, 3, 137);
+ 
+}
+        
+.content{
+  grid-area: content;
+  padding: 50px;
+}
+
+.experience-list{
+  list-style-type: circle;
+}
+
+table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+        border: none;
+        padding: 8px;
+        text-align: left;
+    }
+</style>
+</head>
+<body>
+	
+    <div class="cv-container">
+      <div class="left-column">
+        <center>
+        <img src="images/Sanju.jpeg" alt="Sanju Rajapaksha Photo" width="200" height="225">
+      </center>
+        <div class="section">
+          
+        </div>
+        <div class="section">
+          <br>
+          <h2>CAREER OBJECTIVES<hr></h2>
+          <p>
+            A highly motivated and hardworking student who aimed to getting opportunities where the best of potential can be made and contributed, where the new skills can be learned to expand my knowledge and leverage learnings.
+          </p>
+        </div>
+		
+		<div class="section">
+          <h2>KEY SKILLS<hr></h2>          
+        <ul style="text-align: left;">
+			 <li><strong>Fast Learner &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br/> </strong><progress max="100" value="100"> 100% </progress></li>
+             <li><strong>Strong Decision Maker &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br/> </strong><progress max="100" value="85"> 85% </progress></li>
+             <li><strong>Team Skill &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br/> </strong><progress max="100" value="80"> 80% </progress></li>
+             <li><strong>Time Management &nbsp; <br/>  </strong><progress max="100" value="90"> 90% </progress></li>
+			 <li><strong>Hard Worker &nbsp;<br/>  </strong><progress max="100" value="95"> 95% </progress></li>
+        </div>
+		
+        <div class="section">
+          <h2>TECHNICAL SKILLS<hr></h2>
+        <ul style="text-transform:none;">
+            <li> <strong>MS Office</strong></li>
+            <li> <strong>HTML</strong></li>
+                
+        </ul>
+        </div>
+		
+        <div class="section">
+          <h2>Languages<hr></h2>          
+        <ul class="Languages">
+                            <li><strong>English &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br/> </strong><progress max="100" value="100"> 100% </progress></li>
+                            <li><strong>Sinhala &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br/> </strong><progress max="100" value="100"> 100% </progress></li>
+							<li><strong>Tamil &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br/> </strong><progress max="100" value="50"> 100% </progress></li>
+                            <li><strong>Japanese &nbsp;<br/> </strong><progress max="100" value="15"> 15% </progress></li>
+        </div>
+        <div class="section">
+          <h2>Hobbies<hr></h2>
+          <p>
+            <ul>
+                <li><strong>Reading Books</strong></li>
+                <li><strong>Listening Music</strong></li>
+                <li><strong>Watching Dramas</strong></li>
+                <li><strong>Dancing</strong></li>
+                    </ul>
+          </p>
+          <h2>Current Address<hr></h2>
+          <ul>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3265.5611304846016!2d135.7491071754732!3d35.06770996343285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001a8757bd18e57%3A0x6358b116f5391533!2z44CSNjAzLTgwMTYgS3lvdG8sIEtpdGEgV2FyZCwgS2FtaWdhbW8gU2FrYWd1Y2hpY2jFjSwgMTItMiDlsqnkuIvjg5Pjg6vjg4nkuIros4DojII!5e0!3m2!1sen!2sjp!4v1700989645473!5m2!1sen!2sjp" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    </ul>
+        </div>
+		
+		<div class="section">
+          <h2>For More Information<hr></h2>
+          <table>
+            <td valign="top" rowspan="2" width="25%" style="text-align: left;">
+							<form action="">
+							<p>First Name <input style="width: 80%" type = "text" name="firstname"></p>
+							<p>Last Name <input style="width: 80%;" type = "text" name="lastname"></p>
+							<p>Email &emsp;&emsp;<input style="width: 80%;" type = "email" name="email"></p>
+							<p>
+							<textarea  name="comments" style="width: 80%" cols="31" rows="4">Enter your queries----
+							</textarea>
+							</p>
+							<p><input type = "Submit" name="Submit"></p>
+							</form>
+			</td>
+		</table>				
+		</div>
+      </div>
+      
+      <div class="right-column">
+        <div class="header">
+          <h1> SANJU <span class="text-blue text-uppercase">RAJAPAKSHA</span></h1>
+      <h2>UNIVERSITY STUDENT</h2>
+          	<ul class="information">
+            <li><span aria-hidden="true" style="font-size: 18px;">&#9993;</span> <a href="mailto:rmmtsrajapaksha1997@gmail.com">&nbsp;rmmtsrajapaksha1997@gmail.com</a></li>
+			<li><span aria-hidden="true">&#9742;</span> &nbsp; 070-8999-1701</li>
+            <li><span aria-hidden="true">&#127968;</span></i>&nbsp;Sakaguchi-cho, Kamigamo, Kita ward, Kyoto-fu, Japan</li>
+          </ul>
+        </div>
+
+        <div class="content">
+            <div class="section">
+                
+            <h2>
+            <span class="text-blue"><center><hr>experience<hr></center></span></h2>
+            <p>
+              <strong>2022<i class="fas fa-long-arrow-alt-right"></i> 2023</strong>
+              <br>
+              Additional Teacher for Science Subject  -<em>&nbsp; Private Educational Institution in Sri Lanka</em>
+            </p>
+            <ul class="experience-list">
+              <li>Plan and deliver engaging Science Subject to group of middle school students.</li>
+              <li>Coordinate and lead class assignments, group works to evaluate students progress in subject.</li>
+              <li>Provide guidance to students, fostering a positive learning environment.</li>
+            </ul>
+        
+        </div>
+        <div class="section">
+              <h2><span class="text-blue"><hr><center>Research</center><hr></span></h2>
+            <p>
+              <strong>2022</strong>
+			</p>
+              <ul class="experience-list">
+				<li> Investigating the topic ""2022 - The intention to use Online Grocery Shopping (OGS) amoung consumers in the Colombo District of Sri Lanka during a period of Economic Crisis"</li>
+            </ul>
+			
+          </div>
+		  
+		  
+        <div class="section">
+            <h2><span class="text-blue"><hr><center>EDUCATION</center><hr></span></h2>
+            <p>
+              <strong>2023 <i class="fas fa-long-arrow-alt-right"></i> Present</strong>
+              <br>
+              <em>Master of Science in Information Technology</em>, The Kyoto College of Graduate Studies for Informatics, Japan 
+            </p>
+            <p>
+              <strong>2019 <i class="fas fa-long-arrow-alt-right"></i> 2022</strong>
+              <br>
+              <em>Bachelor of Science in Biological Science</em>, University of Sri Jayewardenepura, Sri Lanka
+            </p>
+            
+        </div>
+		
+		 <div class="section">
+            <h2><span class="text-blue"><hr><center>REFERENCES</center><hr></span></h2>
+           <table>
+			<thead>
+				<tr>
+					<th>Dr. KAK Gnanaweera</th>
+					<th>Professor. RRMKP Ranatunga</th>
+				</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Senior Lecturer</td>
+				<td>Director</td>
+			</tr>
+			<tr>
+				<td>Faculty of Applied Sciences</td>
+				<td>Faculty of Applied Sciences</td>
+			</tr>
+			<tr>
+				<td>University of Sri Jayewardenepura, Sri Lanka</td>
+				<td>University of Sri Jayewardenepura, Sri Lanka</td>
+			</tr>
+			<tr>
+				<td>kamal@sjp.ac.lk</td>
+				<td>ranatunga@sci.sjp.ac.lk</td>
+			</tr>
+		</tbody>
+		</table>
+        </div>
+		
+        <div class="section">
+            <h2><span class="text-blue"><hr><center><a href="https://www.youtube.com/c/Repulz/video"></a>Favourite Youtube contents</center><hr></span></h2>
+		
+            <iframe width="520" height="315" src="https://www.youtube.com/embed/z9c2JS2s2sc?si=0xxQnrWM4O4DqAKr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<iframe width="520" height="315" src="https://www.youtube.com/embed/eGWWdoGKKjw?si=BiGw-_l031dcsdQN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+     
+    
+          </div><table border="1">
+        <tr>
+                <td rowspan="4">
+                    <footer><small>
+                        <p>&copy; M23W7405, M23W7278, M23W7263</p></small></footer> <!--INSERT YOUR INDEX NUMBERS WITHOUT DELETING MY ONE-->
+                </td>
+            </tr>
+    </table>
+        </div>
+      </div>
+    </div>
+</body>

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Achini CV</title>
+    <style>
+		*{
+			margin: 0;
+			box-sizing: border-box;
+		}
+		
+		div {
+			text-align: justify;
+			text-justify: inter-word;
+		}
+
+body{
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: .9rem;
+  line-height: 1.5;
+}
+
+a{
+  text-decoration: none;
+  color: #4472C4;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+p{
+  margin: 0 0 1rem;
+}
+
+h1{
+  margin: 0 0 1rem;
+  font-size: 2.5rem;
+  margin-bottom: .5rem;
+}
+
+h2{
+  margin: 0 0 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.text-blue{
+  color: #4472C4;
+}
+
+.text-gray{
+  color: #002060;
+}
+
+.text-uppercase{
+  text-transform: uppercase; 
+}
+
+.icon{
+  margin-right: .5rem;
+}
+
+.cv-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "left-column right-column right-column";
+  width: 1200px;
+  margin: 100px auto;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.section{
+  margin-bottom: 1.5rem;
+}
+
+.left-column{
+  grid-area: left-column;
+  padding: 50px;
+  background-color: #212e82;
+  color: white;
+}
+
+.portait{
+  border-radius: 50%;
+  max-width: 150px;
+  margin: auto;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.skills{
+  list-style-type: square;
+  padding: 2;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  margin: 0 0 1rem;
+  text-transform: none;
+}
+
+.right-column{
+  grid-area: right-column;
+  display: grid;
+  grid-template-rows: 300px 1fr;
+  grid-template-areas: 
+    "header"
+    "content";
+}
+
+.header{
+  grid-area: header;
+  padding: 50px;
+  background-color: #F2F2F2;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+
+.infos{
+  columns: 2;
+  list-style-type: none;
+  padding: 0;
+}
+ .red-color {
+color:red;
+}
+.pink-color {
+    color:rgb(194, 3, 137);
+ 
+}
+        
+.content{
+  grid-area: content;
+  padding: 50px;
+}
+
+.experience-list{
+  list-style-type: circle;
+}
+
+table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+        border: none;
+        padding: 8px;
+        text-align: left;
+    }
+</style>
+</head>
+<body>
+	
+    <div class="cv-container">
+      <div class="left-column">
+        <center>
+		<img src="images/Achini.jpeg"width ="200px"height ="225px" alt="Your Photo" id="photo">
+		
+      </center>
+        <div class="section">
+          
+        </div>
+        <div class="section">
+          <br>
+          <h2>CAREER OBJECTIVES<hr></h2>
+          <p>
+        A qualified Graduated with a plenty of work experience 
+		to draw upon from a variety of professional settings. 
+		A highly Motivated student currently Pursing MSC in Publishing.
+		My studies have given me a strong foundation in Decision Making, writing Commuinication.
+		Also, I have More than two years of experience with the 
+		strong customer relationship and teamwork skills as well. 
+		Outside of my studies I have skills of communicating 
+		with the clients in a boardroom situation. 
+		
+          </p>
+        </div>
+		
+		<div class="section">
+          <h2>KEY SKILLS<hr></h2>          
+        <ul style="text-align: left;">
+			 <li><strong>Interpersonal &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br/> </strong><progress max="100" value="100"> 100% </progress></li>
+             <li><strong>Creative Design &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br/> </strong><progress max="100" value="85"> 85% </progress></li>
+             <li><strong>Service Forcused&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br/> </strong><progress max="100" value="80"> 80% </progress></li>
+             <li><strong>Adaptable &nbsp; <br/>  </strong><progress max="100" value="90"> 90% </progress></li>
+			 <li><strong>Receptive &nbsp;<br/>  </strong><progress max="100" value="95"> 95% </progress></li>
+        </div>
+		
+        <div class="section">
+          <h2>TECHNICAL SKILLS<hr></h2>
+        <ul style="text-transform:none;">
+            <li> <strong>Content Creater</strong></li>
+            <li> <strong>HTML ,Word ,Excel</strong></li>
+                
+        </ul>
+        </div>
+		
+        <div class="section">
+          <h2>Languages<hr></h2>          
+        <ul class="Languages">
+                            <li><strong>English &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br/> </strong><progress max="100" value="100"> 100% </progress></li>
+                            <li><strong>Sinhala &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br/> </strong><progress max="100" value="100"> 100% </progress></li>
+                            <li><strong>Japanese &nbsp;<br/> </strong><progress max="100" value="15"> 15% </progress></li>
+        </div>
+        <div class="section">
+          <h2>Hobbies<hr></h2>
+          <p>
+            <ul>
+                <li><strong>Swimming</strong></li>
+                <li><strong>Listening Music</strong></li>
+                <li><strong>Dancing</strong></li>
+                    </ul>
+          </p>
+          <h2>Current Address<hr></h2>
+          <ul>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52296.73604089026!2d135.785290605799!3d34.993034940904636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010e9ff203dbd1%3A0x958d79469dbda219!2z44CSNjA3LTgwMjcg5Lqs6YO95bqc5Lqs6YO95biC5bGx56eR5Yy65Zub44OO5a6u5bed5Y6f55S6!5e0!3m2!1sja!2sjp!4v1700792638974!5m2!1sja!2sjp" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    </ul>
+        </div>
+      
+	  <div class="section">
+          <h2>For More Information<hr></h2>
+          <table>
+            <td valign="top" rowspan="2" width="25%" style="text-align: left;">
+							<form action="">
+							<p>First Name <input style="width: 80%" type = "text" name="firstname"></p>
+							<p>Last Name <input style="width: 80%;" type = "text" name="lastname"></p>
+							<p>Email &emsp;&emsp;<input style="width: 80%;" type = "email" name="email"></p>
+							<p>
+							<textarea  name="comments" style="width: 80%" cols="31" rows="4">Enter your queries----
+							</textarea>
+							</p>
+							<p><input type = "Submit" name="Submit"></p>
+							</form>
+			</td>
+		</table>				
+		</div>
+      </div>
+	  
+      <div class="right-column">
+        <div class="header">
+          <h1> ACHINI <span class="text-Black text-uppercase">UDAWATHTHA</span></h1>
+      <h2>UNIVERSITY STUDENT</h2>
+          	<ul class="information">
+            <li><span aria-hidden="true" style="font-size: 18px;">&#9993;</span> <a href="mailto:rmmtsrajapaksha1997@gmail.com">&nbsp;achiniku123@gmail.com</a></li>
+			<li><span aria-hidden="true">&#9742;</span> &nbsp;080-4231-7735</li>
+            <li><span aria-hidden="true">&#127968;</span></i>&nbsp;Shinomiya Kawaramachi,yamashina -ku, Kyoto-Prefecture, Japan</li>
+          </ul>
+        </div>
+
+        <div class="content">
+            <div class="section">
+                
+            <h2>
+            <span class="text-blue"><center><hr>experience<hr></center></span></h2>
+            <p>
+              <strong>2020 -<i class="fas fa-long-arrow-alt-right"></i> 2023</strong>
+              <br>
+              Junior Executive  -<em>&nbsp; APS Logistics International PVT LTD	</em>
+            </p>
+            <ul class="experience-list">
+              <li>Handling the Export Cargo From Sri Lanka to USA tarde Lane.</li>
+              <li>Monitored and review Operational Perfomance,aiding improved Business strategy to maximise Productivity</li>
+              <li>Reduced Cost and improved Operations by analysing processes and customer Feedback</li>
+			  <li>Maintained Smooth-Running Business Operations by delegating Priorities to staff abilities.</li>
+            </ul>
+        
+        </div>
+        		  
+        <div class="section">
+            <h2><span class="text-blue"><hr><center>EDUCATION</center><hr></span></h2>
+            <p>
+              <strong>2023 <i class="fas fa-long-arrow-alt-right"></i> Reading MSC </strong>
+              <br>
+              <em>M.Sc. in Information Technology</em>, The Kyoto College of Graduate Studies for Informatics, Japan 
+            </p>
+            <p>
+              <strong>2018 -<i class="fas fa-long-arrow-alt-right"></i> 2021</strong>
+              <br>
+              <em>Bsc in Business Management (logistics Management)(special)</em>, NSBM,Green University Town Sri Lanka
+            </p>
+			<p>
+              <strong>2014-<i class="fas fa-long-arrow-alt-right"></i> 2016</strong>
+              <br>
+              <em>IT Diploma</em>, Esoft Metro Campus,Sri Lanka
+            </p> 
+			<p>
+              <strong>2015<i class="fas fa-long-arrow-alt-right"></i></strong>
+              <br>
+              <em>Level 1 AAT Examinations Qualified.</em>, AAT Institute,Sri Lanka
+            </p>
+			<p>
+              <strong>2004 -<i class="fas fa-long-arrow-alt-right"></i> 2009</strong>
+              <br>
+              <em>Qualified with IWMS exam Elementry to Grade Six</em>, IWMS Institute, Sri Lanka
+            </p>
+			<p>
+			<strong>2018 -<i class="fas fa-long-arrow-alt-right"></i> 2023</strong>
+              <br>
+              <em>Member of Leo Club Of NSBM </em>, NSBM,Green University Town Sri Lanka
+            </p>  
+        </div>
+		
+		<div class="section">
+            <h2><span class="text-blue"><hr><center>REFERENCES</center><hr></span></h2>
+           <table>
+			<thead>
+				<tr>
+					<th>Mr. BL Marasinghe</th>
+					<th>Professor AS Gamage</th>
+				</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Architech</td>
+				<td>Senior Lecturer</td>
+			</tr>
+			<tr>
+				<td>Axiata Dialog Labs</td>
+				<td>Faculty of Graduate Studies</td>
+			</tr>
+			<tr>
+				<td>Sri Lanka</td>
+				<td>University of Sri Jayewardenepura, Sri Lanka</td>
+			</tr>
+			<tr>
+				<td>bagya.lakmal@axiatadigitallabs.com</td>
+				<td>arunasgamage@sjp.ac.lk</td>
+			</tr>
+		</tbody>
+		</table>
+        </div>
+		
+        <div class="section">
+            <h2><span class="text-blue"><hr><center><a href="https://www.youtube.com/c/Repulz/video"></a>Favourite Youtube contents</center><hr></span></h2>
+		
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bcUuKSd1s24?si=tc2WMcx6G7v_JwY_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+     
+    
+          </div><table border="1">
+        <tr>
+                <td rowspan="4">
+                    <footer><small>
+                        <p>&copy; M23W7405, M23W7278, M23W7263 </p></small></footer> <!--INSERT YOUR INDEX NUMBERS WITHOUT DELETING MY ONE-->
+                </td>
+            </tr>
+    </table>
+        </div>
+      </div>
+    </div>
+</body>
